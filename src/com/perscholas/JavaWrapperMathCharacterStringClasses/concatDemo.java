@@ -1,5 +1,7 @@
 package com.perscholas.JavaWrapperMathCharacterStringClasses;
 
+import java.sql.SQLOutput;
+
 public class concatDemo {
     public static void main(String[] args) {
         // Using the concat method
@@ -25,5 +27,7 @@ public class concatDemo {
         //concat string with char
         String sch = "Supplement " + 'B';
         System.out.println(sch);
+         //charAt()
+        System.out.println("The first character in the message is: " + message.charAt(0));
     }
 }
